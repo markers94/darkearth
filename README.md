@@ -17,7 +17,7 @@ Updating your repo from master:
   
 When you're committing something (still on your own branch):
 
-    git add -u .
+    git add .
     git commit -m description-of-commit-here
     git push origin your-branch-name
   
