@@ -31,3 +31,8 @@ img {
  	border-spacing: 10px;
  	border-bottom: 2px solid grey;
  } 
+
+ .graph {
+ 	width: 500px;
+ 	height: 350px;
+ }
