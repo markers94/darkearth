@@ -1,0 +1,33 @@
+*{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+h1 {
+	font-size: 40px; 
+	text-align: center; 
+}
+
+button {
+	width: 100px;
+	height: 40px; 
+	margin: 10px;
+}
+div.row {
+	display: block;
+	margin-left: 500px;
+}
+ a { 
+ 	text-decoration: none; 
+ }
+
+img {
+	width: 150px;
+	height: 100px;
+
+ }
+
+
+ table {
+ 	border-spacing: 10px;
+ 	border-bottom: 2px solid grey;
+ } 
