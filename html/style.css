@@ -20,10 +20,19 @@ div.row {
  	text-decoration: none; 
  }
 
-img {
+.trending_candidate {
 	width: 150px;
 	height: 100px;
-
+ }
+ 
+.trending_arrow{
+	width:100px;
+	height: 100px;
+ }
+ 
+ .candidate_small{
+	width: 150px;
+	height: 100px;
  }
 
 
@@ -40,6 +49,14 @@ img {
  #trends {
     display: inline-block;
  }
+
+ #Trending{
+	justify: center;
+  }
+  
+  #graph_title{
+	font-weight: bold;
+  }
  
  body, html {
    border: 0;
@@ -134,4 +151,14 @@ li.dropdown {
     display: block;
 }
 
+<<<<<<< HEAD
 /******* END MENU BAR STYLING *********/
+=======
+body, html {
+   border: 0;
+   padding: 0;
+   margin: 0;
+   background-color: #CAC3C3;
+}
+/*** END MENU BAR STYLING ***/
+>>>>>>> 58d2f39e200ab48a7285274b312d1792a3dd77c2
