@@ -20,21 +20,31 @@ div.row {
  	text-decoration: none; 
  }
 
+ hr {
+    width: 800px;
+    color: blue;
+    margin-top: 20px;
+ }
+
 .trending_candidate {
-	width: 150px;
-	height: 100px;
+	width: 205px;
+	height: 130px;
+    margin: 10px;
  }
  
 .trending_arrow{
-	width:100px;
-	height: 100px;
+	width: 50px;
+	height: 75px;
+    margin: 15px 10px 25px 25px;
+ }
+
+ .candidate_name {
  }
  
  .candidate_small{
 	width: 150px;
 	height: 100px;
  }
-
 
  table {
  	border-spacing: 10px;
@@ -44,11 +54,23 @@ div.row {
  .graph {
  	width: 500px;
  	height: 350px;
+    margin-left: 30px;
+ }
+
+ .legend {
+    width: 245px;
+    height: 125px;
+    margin: 20px;
+    margin-bottom: 113px;
  }
 
  #trends {
     display: inline-block;
  }
+
+.trend_content {
+    display: inline-block;
+}
 
  #Trending{
 	justify: center;
@@ -56,6 +78,7 @@ div.row {
   
   #graph_title{
 	font-weight: bold;
+    margin-left: 30px;
   }
  
  body, html {
