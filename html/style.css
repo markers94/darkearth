@@ -41,10 +41,17 @@ img {
     display: inline-block;
  }
  
-/*** MENU BAR STYLING ***/
+ body, html {
+   border: 0;
+   padding: 0;
+   margin: 0;
+   background-image: url("parchment.jpg");
+}
+ 
+/********* MENU BAR STYLING *********/
 #menu {
 	height: 80px;
-	width: 100%;
+	background-color: #333;
 }
 
 #nav-bar {
@@ -58,17 +65,16 @@ img {
 }
 
 #title-cell {
-	margin-top: 0px;
+	/*margin-top: 0px;
 	margin-right: 0px;
-	margin-bottom: 0px;
+	margin-bottom: 0px;*/
+	margin-left: 34%;
 	height: 35px;
 	background-color: #333;
 	color: white;
 	text-align: center;
 	padding: 0px;
 	font-size: 35px;
-	display: table;
-	width: 93%;
 }
 
 #home-logo {
@@ -128,10 +134,4 @@ li.dropdown {
     display: block;
 }
 
-body, html {
-   border: 0;
-   padding: 0;
-   margin: 0;
-   background-image: url("parchment.jpg");
-}
-/*** END MENU BAR STYLING ***/
+/******* END MENU BAR STYLING *********/
