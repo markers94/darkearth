@@ -58,10 +58,17 @@ div.row {
 	font-weight: bold;
   }
  
-/*** MENU BAR STYLING ***/
+ body, html {
+   border: 0;
+   padding: 0;
+   margin: 0;
+   background-image: url("parchment.jpg");
+}
+ 
+/********* MENU BAR STYLING *********/
 #menu {
 	height: 80px;
-	width: 100%;
+	background-color: #333;
 }
 
 #nav-bar {
@@ -75,17 +82,16 @@ div.row {
 }
 
 #title-cell {
-	margin-top: 0px;
+	/*margin-top: 0px;
 	margin-right: 0px;
-	margin-bottom: 0px;
+	margin-bottom: 0px;*/
+	margin-left: 34%;
 	height: 35px;
 	background-color: #333;
 	color: white;
 	text-align: center;
 	padding: 0px;
 	font-size: 35px;
-	display: table;
-	width: 93%;
 }
 
 #home-logo {
@@ -145,6 +151,9 @@ li.dropdown {
     display: block;
 }
 
+<<<<<<< HEAD
+/******* END MENU BAR STYLING *********/
+=======
 body, html {
    border: 0;
    padding: 0;
@@ -152,3 +161,4 @@ body, html {
    background-color: #CAC3C3;
 }
 /*** END MENU BAR STYLING ***/
+>>>>>>> 58d2f39e200ab48a7285274b312d1792a3dd77c2
