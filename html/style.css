@@ -20,10 +20,19 @@ div.row {
  	text-decoration: none; 
  }
 
-img {
+.trending_candidate {
 	width: 150px;
 	height: 100px;
-
+ }
+ 
+.trending_arrow{
+	width:100px;
+	height: 100px;
+ }
+ 
+ .candidate_small{
+	width: 150px;
+	height: 100px;
  }
 
 
@@ -40,11 +49,26 @@ img {
  #trends {
     display: inline-block;
  }
+
+ #Trending{
+	justify: center;
+  }
+  
+  #graph_title{
+	font-weight: bold;
+  }
  
-/*** MENU BAR STYLING ***/
+ body, html {
+   border: 0;
+   padding: 0;
+   margin: 0;
+   background-color: #CAC3C3;;
+}
+ 
+/********* MENU BAR STYLING *********/
 #menu {
 	height: 80px;
-	width: 100%;
+	background-color: #333;
 }
 
 #nav-bar {
@@ -58,17 +82,16 @@ img {
 }
 
 #title-cell {
-	margin-top: 0px;
+	/*margin-top: 0px;
 	margin-right: 0px;
-	margin-bottom: 0px;
+	margin-bottom: 0px;*/
+	margin-left: 34%;
 	height: 35px;
 	background-color: #333;
 	color: white;
 	text-align: center;
 	padding: 0px;
 	font-size: 35px;
-	display: table;
-	width: 93%;
 }
 
 #home-logo {
@@ -127,10 +150,4 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
-body, html {
-   border: 0;
-   padding: 0;
-   margin: 0;
-}
-/*** END MENU BAR STYLING ***/
+/******* END MENU BAR STYLING *********/
