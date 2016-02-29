@@ -20,10 +20,19 @@ div.row {
  	text-decoration: none; 
  }
 
-img {
+.trending_candidate {
 	width: 150px;
 	height: 100px;
-
+ }
+ 
+.trending_arrow{
+	width:100px;
+	height: 100px;
+ }
+ 
+ .candidate_small{
+	width: 150px;
+	height: 100px;
  }
 
 
@@ -40,6 +49,14 @@ img {
  #trends {
     display: inline-block;
  }
+
+ #Trending{
+	justify: center;
+  }
+  
+  #graph_title{
+	font-weight: bold;
+  }
  
 /*** MENU BAR STYLING ***/
 #menu {
@@ -132,6 +149,6 @@ body, html {
    border: 0;
    padding: 0;
    margin: 0;
-   background-image: url("parchment.jpg");
+   background-color: #CAC3C3;
 }
 /*** END MENU BAR STYLING ***/
