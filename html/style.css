@@ -36,3 +36,94 @@ img {
  	width: 500px;
  	height: 350px;
  }
+ 
+/*** MENU BAR STYLING ***/
+#menu {
+	height: 80px;
+}
+
+#nav-bar {
+    list-style-type: none;
+    margin: 0;
+    margin-top: 0px;
+    padding: 0;
+    height: 35px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#title-cell {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	height: 35px;
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 0px;
+	font-size: 35px;
+	display: table;
+	width: 93%;
+}
+
+#home-logo {
+	float: left;
+	height: 88px;
+	width: 90px;
+}
+
+#navbutton, li.dropdown {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+#navbutton a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #18619F;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.active {
+    background-color: #0182B6;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a.dem:hover {background-color: #35A5C7;}
+
+.dropdown-content a.rep:hover {background-color: #CC3631;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+body, html {
+   border: 0;
+   padding: 0;
+   margin: 0;
+}
+/*** END MENU BAR STYLING ***/
