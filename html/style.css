@@ -58,10 +58,17 @@ div.row {
 	font-weight: bold;
   }
  
-/*** MENU BAR STYLING ***/
+ body, html {
+   border: 0;
+   padding: 0;
+   margin: 0;
+   background-color: #CAC3C3;;
+}
+ 
+/********* MENU BAR STYLING *********/
 #menu {
 	height: 80px;
-	width: 100%;
+	background-color: #333;
 }
 
 #nav-bar {
@@ -75,17 +82,16 @@ div.row {
 }
 
 #title-cell {
-	margin-top: 0px;
+	/*margin-top: 0px;
 	margin-right: 0px;
-	margin-bottom: 0px;
+	margin-bottom: 0px;*/
+	margin-left: 34%;
 	height: 35px;
 	background-color: #333;
 	color: white;
 	text-align: center;
 	padding: 0px;
 	font-size: 35px;
-	display: table;
-	width: 93%;
 }
 
 #home-logo {
@@ -144,11 +150,4 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
-body, html {
-   border: 0;
-   padding: 0;
-   margin: 0;
-   background-color: #CAC3C3;
-}
-/*** END MENU BAR STYLING ***/
+/******* END MENU BAR STYLING *********/
