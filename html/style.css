@@ -40,6 +40,7 @@ img {
 /*** MENU BAR STYLING ***/
 #menu {
 	height: 80px;
+	width: 100%;
 }
 
 #nav-bar {
@@ -116,6 +117,8 @@ li.dropdown {
 .dropdown-content a.dem:hover {background-color: #35A5C7;}
 
 .dropdown-content a.rep:hover {background-color: #CC3631;}
+
+.dropdown-content a.cruz:hover {background-image: url("cruzpitsofhell.jpg");}
 
 .dropdown:hover .dropdown-content {
     display: block;
