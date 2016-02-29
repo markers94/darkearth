@@ -36,6 +36,10 @@ img {
  	width: 500px;
  	height: 350px;
  }
+
+ #trends {
+    display: inline-block;
+ }
  
 /*** MENU BAR STYLING ***/
 #menu {
