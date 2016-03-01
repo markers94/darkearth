@@ -1,5 +1,5 @@
 *{
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-family: "Lucida Sans Unicode", "Lucida Sans", sans-serif;
 }
 
 h1 {
@@ -50,6 +50,8 @@ div.select {
  }
 
  table {
+    background-color:lightgrey;
+    border-radius: 25px;
  	border-spacing: 10px;
  	border-bottom: 2px solid grey;
     margin: 50px;
@@ -61,18 +63,28 @@ div.select {
     margin-left: 30px;
     margin-right: 0px;
     padding: 10px;
-    background-color: gray;
+ /*   background-color: gray;*/
  }
 
  .legend {
     width: 245px;
     height: 125px;
     padding: 132px 20px 113px 0px;
-    background-color: gray;
+    /*background-color: gray;*/
  }
 
  #trends {
+/*    background-color: lightgrey;*/
     display: inline-block;
+/*    border-radius: 25px;*/
+    float: right;
+    margin-right: 60px;
+    margin-bottom: 10px;
+        }
+ #group1 {
+    background-color: lightgrey;
+    border-radius: 25px;
+
  }
 
 .trend_content {
@@ -80,8 +92,24 @@ div.select {
 }
 
  #Trending{
+    
+    margin-right: 30px;
+    margin-left: 30px;
+  /*  background-color: lightgrey;*/
+/*    border-radius: 25px;*/
+  }
+
+  #Recent {
+    background-color: lightgrey;
+    display: block;
+    margin-left: 28%;
   }
   
+  #bottom {
+        background-color: lightgrey;
+            border-radius: 25px;
+            margin: 30px;
+  }
   #graph_title{
 	font-weight: bold;
     margin-left: 30px;
@@ -92,25 +120,25 @@ div.select {
     margin-bottom: 30px;
 }
  
-.vr {
+/*.vr {
     display: inline-block;
     margin-left: 10px;
     height: 370px;
-    border-left: thick solid #28A9E2;
+    border-left: thick solid #7F7F7F;*/
 }
 
-.hr {
+/*.hr {
     width: 90%;
     margin-left: 40px;
     margin-top: 20px;
-    border-top: thick solid #28A9E2;
+    border-top: thick solid #7F7F7F;*/
 }
 
  body, html {
-   border: 0;
+/*   border: 0;
    padding: 0;
-   margin: 0;
-   background-color: #CAC3C3;;
+   margin: -10px;*/
+   background-color: #f1f1f1;
 }
 
 footer {
@@ -120,7 +148,7 @@ footer {
  
 /********* MENU BAR STYLING *********/
 #menu {
-	height: 80px;
+	height: 100px;
 	background-color: #333;
 }
 
@@ -128,7 +156,7 @@ footer {
     list-style-type: none;
     margin: 0;
     margin-top: 10px;
-    margin-bottom: 20px;
+   /* margin-bottom: 20px;*/
     padding: 0;
     height: 35px;
     overflow: hidden;
@@ -150,7 +178,7 @@ footer {
 
 #home-logo {
 	float: left;
-	height: 98px;
+	height: 100px;
 	width: 98px;
 }
 
