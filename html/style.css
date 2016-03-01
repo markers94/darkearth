@@ -67,9 +67,9 @@ div.select {
  }
 
  .legend {
-    width: 245px;
+    width: 220px;
     height: 125px;
-    padding: 132px 20px 113px 0px;
+    padding: 132px 5px 113px 0px;
     /*background-color: gray;*/
  }
 
@@ -78,7 +78,7 @@ div.select {
     display: inline-block;
 /*    border-radius: 25px;*/
     float: right;
-    margin-right: 60px;
+    margin-right: 5%;
     margin-bottom: 10px;
         }
  #group1 {
