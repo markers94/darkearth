@@ -8,26 +8,40 @@ h1 {
 }
 
 button {
-	width: 100px;
-	height: 40px; 
+	width: 200px;
+	height: 80px; 
 	margin: 10px;
 }
 div.row {
 	display: block;
-	margin-left: 500px;
+	margin-left: 26%;
 }
+
+div.select {
+	margin-bottom: 200px;
+}
+
  a { 
  	text-decoration: none; 
+    font-size: 20px;
  }
 
 .trending_candidate {
-	width: 150px;
-	height: 100px;
+	width: 205px;
+	height: 130px;
+    margin: 10px;
  }
  
 .trending_arrow{
-	width:100px;
-	height: 100px;
+	width: 50px;
+	height: 75px;
+    margin: 15px 10px 25px 25px;
+ }
+
+ .candidate_name {
+ }
+
+ #falling {
  }
  
  .candidate_small{
@@ -35,37 +49,76 @@ div.row {
 	height: 100px;
  }
 
-
  table {
  	border-spacing: 10px;
  	border-bottom: 2px solid grey;
+    margin: 50px;
  } 
 
  .graph {
  	width: 500px;
  	height: 350px;
+    margin-left: 30px;
+    margin-right: 0px;
+    padding: 10px;
+    background-color: gray;
+ }
+
+ .legend {
+    width: 245px;
+    height: 125px;
+    padding: 132px 20px 113px 0px;
+    background-color: gray;
  }
 
  #trends {
     display: inline-block;
  }
 
+.trend_content {
+    display: inline-block;
+}
+
  #Trending{
-	justify: center;
   }
   
   #graph_title{
 	font-weight: bold;
+    margin-left: 30px;
   }
-  
-body, html {
+
+.twitter-timeline {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+ 
+.vr {
+    display: inline-block;
+    margin-left: 10px;
+    height: 370px;
+    border-left: thick solid #28A9E2;
+}
+
+.hr {
+    width: 90%;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-top: thick solid #28A9E2;
+}
+
+ body, html {
    border: 0;
    padding: 0;
    margin: 0;
-   background-color: #CAC3C3;
+   background-color: #CAC3C3;;
+}
+
+footer {
+    font-size: 12px;
+    margin-top: 30px;
 }
  
-/*** MENU BAR STYLING ***/
+/********* MENU BAR STYLING *********/
 #menu {
 	height: 80px;
 	background-color: #333;
@@ -74,7 +127,8 @@ body, html {
 #nav-bar {
     list-style-type: none;
     margin: 0;
-    margin-top: 0px;
+    margin-top: 10px;
+    margin-bottom: 20px;
     padding: 0;
     height: 35px;
     overflow: hidden;
@@ -82,20 +136,22 @@ body, html {
 }
 
 #title-cell {
-	margin-left: 41%;
+	/*margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;*/
+	margin-left: 34%;
 	height: 35px;
 	background-color: #333;
 	color: white;
 	text-align: center;
 	padding: 0px;
 	font-size: 35px;
-	display: table;
 }
 
 #home-logo {
 	float: left;
-	height: 88px;
-	width: 90px;
+	height: 98px;
+	width: 98px;
 }
 
 #navbutton, li.dropdown {
@@ -148,4 +204,4 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-/*** END MENU BAR STYLING ***/
+/******* END MENU BAR STYLING *********/

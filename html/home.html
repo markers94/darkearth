@@ -15,14 +15,14 @@
 	<a href="home.html"><img src="our-logo.jpg" id="home-logo" /></a>
 	<a id="title-cell">Social Politics</a>
 	<ul id="nav-bar">
-	  <li id="navbutton"><a href="#compare">Compare Candidates</a></li>
+	  <li id="navbutton"><a href="Compare.Candidates.html">Compare Candidates</a></li>
 	  <li id="navbutton"><a href="Issue%20Select.html">Find an Issue</a></li>
 	  <li class="dropdown">
-		<a href="#" class="dropbtn">Select a Candidate</a>
+		<a href="Candidates.html" class="dropbtn">Select a Candidate</a>
 		<div class="dropdown-content">
 		  <a class="dem" href="#hilldawg">Hillary Clinton</a>
 		  <a class="dem" href="#feelthebern">Bernie Sanders</a>
-		  <a class="rep" href="#thedonald">Donald Trump</a>
+		  <a class="rep" href="#small-fingeredvulgarian">Donald Trump</a>
 		  <a class="rep" href="#mrrobot">Marco Rubio</a>
 		  <a class="cruz" href="#tedcruzthezodiackiller">Ted Cruz</a>
 		</div>
@@ -34,23 +34,32 @@
 <div id="Trending">
 	<div id="graph_title"> 2016 National Republican Primary </div><br>
 	<img src="graph.jpg" class="graph"></img>
-	<img src="legend.jpg"></img>
+	<img src="legend.jpg" class="legend"></img>
+	<div class="vr"></div>
 	<div id="trends">
 		<div id="rising">
-			<img class= "trending_candidate" src="MR.jpg"></img>
-			<p1>Marco Rubio</p1>
-			<img class="trending_arrow" src="up_arrow.png"></img>
+			<a href="#MarcoRubio"><img class="trending_candidate" src="MR.jpg"></img></a>
+			<div class="trend_content">
+				<p1 class="candidate_name">Marco Rubio</p1><br>
+				<img class="trending_arrow" src="up_arrow.png"></img>
+			</div>
 		</div>
 		<div id="falling">
-			<img class="trending_candidate" src="BC.jpg"></img>
-			<p1>Ben Carson</p1>
-			<img class="trending_arrow" src="down_arrow.png"></img>
+			<a href="#BenCarson"><img class="trending_candidate" src="BC.jpg"></img></a>
+			<div class="trend_content">
+				<p1 class="candidate_name">Ben Carson</p1><br>
+				<img class="trending_arrow" src="down_arrow.png"></img>
+			</div>
 		</div>
 	</div>
 </div>
+<div class="hr"></div>
 <div id="Recent Posts">
 	<h1> Recent Posts </h1>
-	
+	<a class="twitter-timeline" href="https://twitter.com/hashtag/Election2016" data-widget-id="704445244260147200">#Election2016 Tweets</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </div>
+
+<footer>Copyright 2016 Team Dark Earth. Contact us: tde.eecs330@teamdarkearth.com</footer>
 </body>
 </html>
