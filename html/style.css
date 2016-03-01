@@ -58,18 +58,28 @@ div.row {
     margin-left: 30px;
     margin-right: 0px;
     padding: 10px;
-    background-color: gray;
+ /*   background-color: gray;*/
  }
 
  .legend {
     width: 245px;
     height: 125px;
     padding: 132px 20px 113px 0px;
-    background-color: gray;
+    /*background-color: gray;*/
  }
 
  #trends {
+/*    background-color: lightgrey;*/
     display: inline-block;
+/*    border-radius: 25px;*/
+    float: right;
+    margin-right: 100px;
+    margin-bottom: 10px;
+        }
+ #group1 {
+    background-color: lightgrey;
+    border-radius: 25px;
+
  }
 
 .trend_content {
@@ -77,10 +87,11 @@ div.row {
 }
 
  #Trending{
+    
     margin-right: 30px;
     margin-left: 30px;
-    background-color: lightgrey;
-    border-radius: 25px;
+  /*  background-color: lightgrey;*/
+/*    border-radius: 25px;*/
   }
 
   #Recent {
@@ -104,18 +115,18 @@ div.row {
     margin-bottom: 30px;
 }
  
-.vr {
+/*.vr {
     display: inline-block;
     margin-left: 10px;
     height: 370px;
-    border-left: thick solid #7F7F7F;
+    border-left: thick solid #7F7F7F;*/
 }
 
-.hr {
+/*.hr {
     width: 90%;
     margin-left: 40px;
     margin-top: 20px;
-    border-top: thick solid #7F7F7F;
+    border-top: thick solid #7F7F7F;*/
 }
 
  body, html {
