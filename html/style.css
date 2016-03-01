@@ -76,6 +76,11 @@ div.row {
 
  #Trending{
   }
+
+  #Recent {
+    display: block;
+    margin-left: 28%;
+  }
   
   #graph_title{
 	font-weight: bold;
@@ -91,21 +96,21 @@ div.row {
     display: inline-block;
     margin-left: 10px;
     height: 370px;
-    border-left: thick solid #28A9E2;
+    border-left: thick solid #7F7F7F;
 }
 
 .hr {
     width: 90%;
     margin-left: 40px;
     margin-top: 20px;
-    border-top: thick solid #28A9E2;
+    border-top: thick solid #7F7F7F;
 }
 
  body, html {
    border: 0;
    padding: 0;
    margin: 0;
-   background-color: #CAC3C3;;
+   background-color: #ffffff;;
 }
  
 /********* MENU BAR STYLING *********/
