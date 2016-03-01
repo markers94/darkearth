@@ -16,6 +16,11 @@ div.row {
 	display: block;
 	margin-left: 26%;
 }
+
+div.select {
+	margin-bottom: 200px;
+}
+
  a { 
  	text-decoration: none; 
     font-size: 20px;
@@ -106,6 +111,11 @@ div.row {
    padding: 0;
    margin: 0;
    background-color: #CAC3C3;;
+}
+
+footer {
+    font-size: 12px;
+    margin-top: 30px;
 }
  
 /********* MENU BAR STYLING *********/
