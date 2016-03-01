@@ -8,16 +8,17 @@ h1 {
 }
 
 button {
-	width: 100px;
-	height: 40px; 
+	width: 200px;
+	height: 80px; 
 	margin: 10px;
 }
 div.row {
 	display: block;
-	margin-left: 35%;
+	margin-left: 26%;
 }
  a { 
  	text-decoration: none; 
+    font-size: 20px;
  }
 
 .trending_candidate {
@@ -72,6 +73,12 @@ div.row {
     display: inline-block;
 }
 
+#Recent{
+    display: block;
+    margin-left: 30%;
+
+}
+
  #Trending{
   }
   
@@ -89,14 +96,14 @@ div.row {
     display: inline-block;
     margin-left: 10px;
     height: 370px;
-    border-left: thick solid #28A9E2;
+    border-left: thick solid #7F7F7F;
 }
 
 .hr {
     width: 90%;
     margin-left: 40px;
     margin-top: 20px;
-    border-top: thick solid #28A9E2;
+    border-top: thick solid #7F7F7F;
 }
 
  body, html {
@@ -119,7 +126,7 @@ div.row {
     padding: 0;
     height: 35px;
     overflow: hidden;
-    background-color: #333;
+    background-color: #7F7F7F;
 }
 
 #title-cell {
