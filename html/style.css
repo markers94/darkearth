@@ -8,16 +8,17 @@ h1 {
 }
 
 button {
-	width: 100px;
-	height: 40px; 
+	width: 200px;
+	height: 80px; 
 	margin: 10px;
 }
 div.row {
 	display: block;
-	margin-left: 500px;
+	margin-left: 26%;
 }
  a { 
  	text-decoration: none; 
+    font-size: 20px;
  }
 
 .trending_candidate {
